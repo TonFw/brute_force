@@ -1,0 +1,46 @@
+PATH
+  remote: .
+  specs:
+    brute_force (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.2.5)
+    docile (1.1.5)
+    faker (1.6.6)
+      i18n (~> 0.5)
+    i18n (0.7.0)
+    json (2.0.2)
+    rake (11.3.0)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    simplecov (0.12.0)
+      docile (~> 1.1.0)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  brute_force!
+  faker (~> 1.6, >= 1.6.0)
+  rake (~> 11.3, >= 11.3.0)
+  rspec (~> 3.5, >= 3.5.0)
+  simplecov (~> 0.12, >= 0.12.0)
+
+BUNDLED WITH
+   1.13.6
